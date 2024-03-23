@@ -23,13 +23,22 @@ public class Pajaro extends Animal {
     // Implementación del método de la super clase.
     @Override
     public void Come() {
-        System.out.println("El pájaro está comiendo");
+        System.out.println("El pájaro está comiendo.");
+    }
+
+    @Override
+    public void Duerme() {
+        System.out.println("El pájaro está durmiento.");
+    }
+
+    public void Vuela(){
+        System.out.println("El pájaro está volando");
     }
 
     @Override
     public String toString() {
         return "Pajaro { " +
-                "colorPlumaje= '" + colorPlumaje + '\'' +
+                " Color de plumaje= '" + colorPlumaje + '\'' +
                 ", sexo= '" + sexo + '\'' +
                 ", edad= " + edad +
                 ", peso= " + peso +

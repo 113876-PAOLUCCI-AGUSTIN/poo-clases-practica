@@ -8,4 +8,6 @@ public abstract class Animal {
 
     // Métodos.
     public abstract void Come();
+
+    public abstract void Duerme();
 }
